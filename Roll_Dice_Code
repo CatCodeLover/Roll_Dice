@@ -1,0 +1,15 @@
+import random
+
+def Roll_Dice(number):
+    result = int(random.randint(1, 10))
+
+    if number == result:
+        print("You rolled the same number!", result)
+    else:
+        print("Didnt roll the same number!", result)
+
+    return result
+
+
+
+Roll_Dice(7)
